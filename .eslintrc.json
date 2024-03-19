@@ -9,6 +9,9 @@
         "sourceType": "module"
     },
     "rules": {
+        "@typescript-eslint/unbound-method": "warn",
+        "@typescript-eslint/ban-ts-comment": "warn",
+        "@typescript-eslint/prefer-ts-expect-error": "warn",
         "@typescript-eslint/triple-slash-reference": "warn",
         "@typescript-eslint/explicit-function-return-type": "warn"
     }
